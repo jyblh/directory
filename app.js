@@ -1,6 +1,6 @@
 'use strict';
 // 貼上獨立 Apps Script 網頁應用程式 /exec 網址；不得放入任何私密金鑰。
-const API_URL = 'https://script.google.com/macros/s/AKfycbzmEazp_5-bCWGZQtDJcV3Xnq4-49fPOclBfmPGNkw1P5LzjZzxUwwGnqXz6lyhRSNy/exec';
+const API_URL = 'https://script.google.com/a/macros/ntutjob.org/s/AKfycbxWu8Il6lm26ExJ0QWdrfcutnXecvfzrPJn9lghdQDfwgwIwLjCULwQ4iDrnXa_TC6i/exec';
 const INDUSTRIES=['電子資訊','半導體','製造工程','金融保險','顧問服務','營建建築','零售服務','其他'];
 const DEPARTMENTS=['不限科系','電機工程','電子工程','資訊工程','機械工程','材料工程','化學工程','土木工程','建築設計','工業設計','經營管理','資訊管理','工業工程','能源工程','人文社會','其他'];
 const $=id=>document.getElementById(id);
