@@ -7,3 +7,17 @@
 .hero-label span{font-size:13px}.hero-label strong{font-size:22px}.hero-label small{margin-left:auto}
 @media(max-width:980px){.hero{height:auto}.hero-label{right:auto}}
 @media(max-width:650px){.hero{height:auto}.hero-label{position:static;padding:13px 18px;gap:4px 12px}.hero-label strong{font-size:18px}.hero-label small{display:none}.topline{margin-top:0}}
+
+/* V6.2 — 置中完整主視覺，避免桌機被放大到佔滿首屏 */
+.hero{height:auto!important;display:block!important;overflow:hidden!important;background:linear-gradient(105deg,#a3d5d0,#dce9b2 58%,#b5d8b9)!important;padding:18px 24px 0!important}
+.hero-inner{max-width:1180px;margin:0 auto;overflow:hidden;border-radius:18px 18px 0 0}
+.hero img{display:block;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important}
+.hero-label,.topline{display:none!important}
+.portal-heading{max-width:1180px;margin:0 auto;display:flex;align-items:center;flex-wrap:wrap;gap:10px 22px;padding:17px 24px;border-radius:0 0 18px 18px;background:#fffdf0;border:1px solid #e3e9c9;border-top:0;box-shadow:0 10px 30px #2d6e3b10}
+.portal-heading span:first-child{color:var(--forest);font-size:12px;font-weight:700;letter-spacing:.08em}
+.portal-heading strong{font-size:22px;color:var(--forest-dark)}
+.portal-heading small{margin-left:auto;color:#60846a;font-size:11px;letter-spacing:.12em}
+.portal-heading .user-badge{margin-left:auto}
+main{margin-top:24px!important}
+.login-card{margin-bottom:38px}
+@media(max-width:650px){.hero{padding:10px 10px 0!important}.hero-inner{border-radius:12px 12px 0 0}.portal-heading{margin:0 10px;padding:14px 16px;gap:4px 10px;border-radius:0 0 12px 12px}.portal-heading strong{font-size:19px}.portal-heading small{display:none}main{margin-top:18px!important}}
